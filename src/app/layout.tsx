@@ -1,15 +1,30 @@
 
 import { config } from "@/config";
-import { signOgImageUrl } from "@/lib/og-image";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Libre_Baskerville, Unna, Frank_Ruhl_Libre, Rethink_Sans} from "next/font/google";
 import "./globals.css";
 import {Header} from "@/components/Header";
 import {Footer} from "@/components/Footer";
 import Providers from "@/components/theme-provider";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const fontSans = Inter({ subsets: ["latin"], variable: "--font-sans" });
+// const fontSans = Inter({ subsets: ["latin"], variable: "--font-sans" });
+
+const fontSans = Frank_Ruhl_Libre({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+  weight: ["400", "700"],
+})
+
+const fontSerif = Rethink_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-rethink-sans",
+});
+
 
 export const metadata: Metadata = {
   title: {
@@ -21,11 +36,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: config.name.metadata.title.default,
     description: config.name.metadata.description,
-    images: [
-      signOgImageUrl({
-        title: config.name.name,
-      }),
-    ]
+    // images: [
+    //   signOgImageUrl({
+    //     title: config.name.name,
+    //   }),
+    // ]
   }
 };
 
@@ -35,11 +50,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased max-w-6xl m-auto",
-          fontSans.variable
+          "min-h-screen bg-background font-sans antialiased scroll-smooth",
+          fontSans.variable,
+          fontSerif.variable,
         )}
       >
         <Providers

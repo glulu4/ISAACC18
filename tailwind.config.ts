@@ -30,6 +30,8 @@ const config = {
         'moz-fill': '-moz-available',
       },
       colors: {
+
+        headerColor: "rgba(235, 235, 245, 0.6)",//"rgba(235, 235, 245, 0.3)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -85,6 +87,7 @@ const config = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+        serif: ["var(--font-rethink-sans)", ...fontFamily.serif],
       },
 
       fontSize: {
@@ -95,7 +98,9 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography"), 
+    
+  ],
 } satisfies Config;
 
 export default config;
