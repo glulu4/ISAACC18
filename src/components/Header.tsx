@@ -15,6 +15,7 @@ import {usePathname} from "next/navigation";
 import {FunctionComponent} from "react";
 import DonateButton from "./DonateButton";
 import {Link as ScrollLink} from 'react-scroll';
+import clsx from "clsx";
 
 interface MenuItem {
   name: string;
@@ -79,7 +80,9 @@ export const Navigation: FunctionComponent = () => {
           <SheetTrigger>
             <Menu size="24" />
           </SheetTrigger>
-          <SheetContent className="bg-blue-900">
+          <SheetContent 
+            className={clsx("bg-blue-900 text-white [&_[data-radix-sheet-close]]:text-white")}
+          >
             <SheetHeader>
               <SheetDescription>
                 {menuItems.map((item) => (
