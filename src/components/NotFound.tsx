@@ -28,7 +28,7 @@ export const NotFound = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
       <DotLottieReact
-        src="/404.json"
+        src="/construction"
         loop
         autoplay
         slot="lottie"
