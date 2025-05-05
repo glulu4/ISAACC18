@@ -16,7 +16,7 @@ export default function FormButton({
             <a
                 href={href}
                 onClick={onClick}
-                className="inline-block border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white transition-colors duration-200 font-serif text-md font-medium px-11 py-4 rounded-full"
+                className="inline-block border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white transition-colors duration-200 font-serif text-lg md:text-xl font-medium px-11 py-4 rounded-full"
             >
                 {text}
             </a>

@@ -36,12 +36,12 @@ const values = [
 
 export default function OurValues() {
   return (
-      <div className="mx-auto my-20 px-6 sm:my-40 lg:px-8 bg-blue-900 p-28">
+      <div className="mx-auto my-20 px-6 sm:my-40 lg:px-8 bg-blue-900 p-28 rounded-xl">
           <div className="mx-auto max-w-4xl text-center ">
-              <div className="inline-flex items-center px-4 py-2 bg-blue-50/5 rounded-full text-white text-lg mb-6">
+              {/* <div className="inline-flex items-center px-4 py-2 bg-blue-50/5 rounded-full text-white text-lg mb-6">
                   <Award className="w-5 h-5 mr-2" />
                   Values
-              </div>
+              </div> */}
               <p className="mt-10 font-semibold  py-9 leading-none text-5xl text-center font-serif text-white sm:text-7xl">
                 Our values
                 </p>

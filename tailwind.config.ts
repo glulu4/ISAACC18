@@ -100,6 +100,22 @@ const config = {
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography"), 
     
+    function ({addUtilities}: any) {
+      addUtilities({
+        '.text-header1': {
+          '@apply font-semibold leading-none text-3xl font-serif text-blue-950 sm:text-5xl': {},
+        },
+        '.text-header2': {
+          '@apply font-semibold leading-none text-5xl font-serif text-blue-950 sm:text-7xl': {},
+        },
+        '.text-body1': {
+          '@apply font-medium text-pretty sm:text-2xl/9': {},
+        },
+        '.text-body2': {
+          '@apply font-medium text-pretty text-xl/8 sm:text-3xl/9': {},
+        },
+      })
+    }
   ],
 } satisfies Config;
 

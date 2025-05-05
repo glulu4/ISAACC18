@@ -12,9 +12,9 @@ export default function DonateButton({href = '/',
   return (
       <div className="flex justify-center">
           <a
-              href={href}
+              href="https://buy.stripe.com/5kA15W4iQfdv0XSbII"
               onClick={onClick}
-              className="inline-block border-2 hover:border-blue-700 border-blue-900 bg-blue-900 hover:bg-blue-700 transition-colors duration-200 text-white font-serif text-md font-medium px-11 py-4 rounded-full"
+              className="inline-block border-2 sm:text-xl hover:border-blue-700 border-blue-900 bg-blue-900 hover:bg-blue-700 transition-colors duration-200 text-white font-serif text-md font-medium px-11 py-4 rounded-full"
           >
               {text}
           </a>
