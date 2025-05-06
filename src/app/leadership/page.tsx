@@ -51,7 +51,7 @@ volunteer and lecture at Israeli conferences and meetings.`,
     {
         name: 'Dr. Leonardo Gendzel',
         role: 'Treasurer',
-        imageUrl: "/images/team/Leonardo-Gendzel.jpeg",
+        imageUrl: "/images/team/Leonardo-Gendzel.png",
         bio: `Dr. Gendzel is a board-certified Anesthesiologist and
 Pediatric Anesthesiologist who currently practices at Levine Children's Hospital in
 Charlotte, North Carolina, USA. Born and raised in Rio de Janeiro, Brazil, he attended
@@ -95,7 +95,7 @@ clinical practice guidelines.`,
     {
         name: 'Dr. Ruthi Landau',
         role: 'Officer',
-        imageUrl: "/images/team/Ruth Landau.jpg",
+        imageUrl: "/images/team/Ruth Landau.png",
         bio: `Dr. Landau is the Virginia Apgar Professor of
 Anesthesiology at Columbia University and the Division Chief of Obstetric Anesthesia at
 Columbia University Irving Medical Center in New York, USA. She obtained her Medical
