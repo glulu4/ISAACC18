@@ -103,14 +103,22 @@ export const Header: FunctionComponent = () => {
       <meta name="theme-color" content="white" />
       <Link href="/" className="flex items-center">
         <div className="">
-          {/* Replace with your actual logo */}
-          <Image
+          {/* <Image
             src="/images/icon2.png"
             alt="Logo"
             width={48}
             height={48}
-            className="rounded-full w-12 h-12 sm:w-16 sm:h-16 md:w-20 object-cover"
+            className="rounded-full w-12 sm:w-16 md:w-20"
+            priority={true} // Ensures the image is loaded with high priority
+          /> */}
+          <Image
+            src="/images/icon2.png"
+            alt="Logo"
+            width={80}
+            height={80}
+            className="rounded-full w-16 sm:w-20"
           />
+
         </div>
       </Link>
 
