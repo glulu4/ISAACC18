@@ -49,7 +49,7 @@ volunteer and lecture at Israeli conferences and meetings.`,
     },
 
     {
-        name: 'Dr. Leonardo Gendzel',
+        name: 'Dr. Leonardo Gendzel, MD',
         role: 'Treasurer',
         imageUrl: "/images/team/Leonardo-Gendzel.png",
         bio: `Dr. Gendzel is a board-certified Anesthesiologist and
@@ -110,7 +110,7 @@ Association and was awarded the distinction of Honorary Fellow of the Israel Soc
 Anesthesiologists in 2024.`,
     },
     {
-        name: 'Prof. Barak Cohen',
+        name: 'Professor Barak Cohen, MD',
         role: 'Officer',
         imageUrl: "/images/team/Barak Cohen.png",
         bio: `Dr. Barak Cohen is a Professor of Anesthesiology at the Tel

@@ -1,44 +1,21 @@
-// import {config} from "@/config";
-// import Link from "next/link";
-// import {FunctionComponent} from "react";
 
 import {config} from "@/config"
-import Image from "next/image"
 import {FunctionComponent} from "react"
 
-// export const Footer: FunctionComponent = () => {
-//   return (
-//     <footer className="mt-8 md:mt-16 bg-blue-900 text-white font-semibold p-8 lg:p-8">
-//       <div className="flex flex-1 items-center justify-around font-serif">
-//         <div className="text-sm ">
-//           {config.name.name} ©  {new Date().getFullYear()}
-//         </div>
-//         <div className="text-xs hidden lg:block">
-//           <Link
-//             href={`/`}
-//           >
-//             Apply Now
-//           </Link>
-//         </div>
 
-//       </div>
-
-//     </footer>
-//   );
-// };
 
 const navigation = {
   right: [
-    {name: 'Israel Society of Anesthesiologists', },
     // {name: 'Analytics', },
     {name: 'Israel Society of Anesthesiologists', bold: true},
-    {name: 'Professor Yehuda Ginosar MBBS', },
-    {name: 'Professor Barak Cohen', },
+    {name: 'Professor Yehuda Ginosar, MBBS', },
+    {name: 'Professor Barak Cohen, MD', },
+    {name: 'line-break', },
     {name: 'International Board of Directors', bold: true},
     {name: 'Professor Ron E. Samet, MD', },
     {name: 'Dr. Dan Zeloof, MD', },
     {name: 'Professor Suzanne Karan, MD', },
-    {name: 'Dr. Leonardo Gendzel', },
+    {name: 'Dr. Leonardo Gendzel, MD', },
     {name: 'Professor Joel Symons, MD', },
     {name: 'Professor Ruthi Landau, MD', },
 
@@ -73,10 +50,19 @@ export const Footer: FunctionComponent = () => {
 
               <ul role="list" className="space-y-4">
                 {navigation.right.map((item) => (
-                  <li key={item.name}>
-                    <p className={`sm:text-xl text-gray-100 hover:text-white ${item.bold ? "font-bold text-white" : ""}`}>
-                      {item.name}
-                    </p>
+                  // <li key={item.name}>
+                  //   <p className={`sm:text-xl text-gray-100 hover:text-white ${item.bold ? "font-bold text-white" : ""}`}>
+                  //     {item.name}
+                  //   </p>
+                  // </li>
+                  <li key={item.name} className="flex flex-col">
+                    {item.name === "line-break" ? (
+                      <div className="h-2"></div>
+                    ) : (
+                      <p className={`sm:text-xl text-gray-100 hover:text-white ${item.bold ? "font-bold text-white" : ""}`}>
+                        {item.name}
+                      </p>
+                    )}
                   </li>
                 ))}
               </ul>
