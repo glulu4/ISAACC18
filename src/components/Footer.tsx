@@ -30,23 +30,32 @@ import {FunctionComponent} from "react"
 const navigation = {
   right: [
     {name: 'Israel Society of Anesthesiologists', },
-    {name: 'Analytics', },
+    // {name: 'Analytics', },
+    {name: 'Israel Society of Anesthesiologists', bold: true},
+    {name: 'Professor Yehuda Ginosar MBBS', },
+    {name: 'Professor Barak Cohen', },
     {name: 'International Board of Directors', bold: true},
-    {name: 'Dr. One', },
-    {name: 'Dr. Two', },
+    {name: 'Professor Ron E. Samet, MD', },
+    {name: 'Dr. Dan Zeloof, MD', },
+    {name: 'Professor Suzanne Karan, MD', },
+    {name: 'Dr. Leonardo Gendzel', },
+    {name: 'Professor Joel Symons, MD', },
+    {name: 'Professor Ruthi Landau, MD', },
+
 
 
   ],
   middle: [
+    {name: "Israel Society of Anesthesiologists", href: 'https://www.ima.org.il/mainsitenew/editunion.aspx?unionid=740', },
     {name: 'Israel Ministry of Health', href: 'https://www.gov.il/en/departments/ministry_of_health/govil-landing-page', bold: false},
     {name: "Nefesh B'Nefesh", href: 'https://www.nbn.org.il'},
 
   ],
   contact: [
-    {name: 'Israel • U.S.A • Australia', bold: false},
+    {name: 'Israel • USA • Australia', bold: false},
     {
       name: 'contact@isaacc18.org',},
-    {name: '501c3', },
+    {name: 'US 501(c)(3) status • EIN: 31-2174742', },
     {name: 'Donate Now', href: 'https://buy.stripe.com/5kA15W4iQfdv0XSbII'},
   ],
 }

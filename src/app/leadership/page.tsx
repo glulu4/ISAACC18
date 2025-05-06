@@ -4,7 +4,7 @@ import React from 'react'
 
 const people = [
     {
-        name: 'Dr. Ron E. Samet',
+        name: 'Professor Ron E. Samet, MD',
         role: 'President',
         imageUrl:"/images/team/Samet_Ron.jpg",
         bio: `
@@ -12,7 +12,7 @@ Dr. Ron E. Samet is a full-time trauma anesthesiologist and the current Division
         `,
     },
     {
-        name: 'Dr. Dan Zeloof',
+        name: 'Dr. Dan Zeloof, MD',
         role: 'Vice President',
         imageUrl: "/images/team/dan-cropped.png",
         bio: `Dr. Zeloof is a general and cardiothoracic
@@ -31,7 +31,7 @@ cognition and response.`,
 
 
     {
-        name: 'Prof. Suzanne Karan,',
+        name: 'Professor Suzanne Karan, MD',
         role: 'Secretary',
         imageUrl: "/images/team/Suzanne-Karan.jpeg",
         bio: `Dr. Karan is a Professor of Anesthesiology at the
@@ -79,7 +79,7 @@ Israel Society of Anesthesiology. He currently chairs the Ethics Committee for t
 European Society of Anaesthesiology and Intensive Care.`,
     },
     {
-        name: 'Dr. Joel Symons',
+        name: 'Professor Joel Symons, MD',
         role: 'Officer',
         imageUrl: "/images/team/Joel Symons.jpeg",
         bio: `Dr. Joel Symons is an Associate Professor at The Alfred
@@ -93,7 +93,7 @@ volunteer in Israel and is seeking to develop collaborative partnerships in educ
 clinical practice guidelines.`,
     },
     {
-        name: 'Dr. Ruthi Landau',
+        name: 'Professor Ruthi Landau, MD',
         role: 'Officer',
         imageUrl: "/images/team/Ruth Landau.png",
         bio: `Dr. Landau is the Virginia Apgar Professor of
