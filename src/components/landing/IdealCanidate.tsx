@@ -41,12 +41,11 @@ We are looking for anesthesiologists and/or critical care physicians who:
                             </p>
 
                             <ul className="mt-4 list-disc list-inside space-y-2 text-body1 text-blue-950 font-medium">
-                                <li className="flex items-start gap-2">
-                                    <span className="font-bold text-blue-950">1.</span>
+                                <li className=" text-blue-950">
                                     Possess strong clinical skills, teaching experience, professional development mentorship, or research success seeking to volunteer in Israel and/or develop a collaborative international partnership.
                                 </li>
-                                <li className="flex items-start gap-2">
-                                    <span className="font-bold text-blue-950">2.</span>
+                                <li className=" text-blue-950">
+                                    
                                     Want to be part of an international community dedicated to making a positive impact in the field of anesthesiology and critical care in Israel.
                                 </li>
                             </ul>

@@ -14,6 +14,7 @@ import Image from "next/image";
 import {usePathname} from "next/navigation";
 import {FunctionComponent} from "react";
 import clsx from "clsx";
+import FormButton from "./FormButton";
 
 interface MenuItem {
   name: string;
@@ -26,8 +27,8 @@ const menuItems: MenuItem[] = [
   {name: "Register", href: "/register"},
 
   {name: "Leadership", href: "/leadership"},
-  {name: "Announcements", href: "/announcements"},
-  {name: "Testimonials", href: "/testimonials"},
+  // {name: "Announcements", href: "/announcements"},
+  // {name: "Testimonials", href: "/testimonials"},
   {name: "Donate", href: "https://buy.stripe.com/5kA15W4iQfdv0XSbII",},
   {name: "Sign In", href: "/contact"},
 
@@ -37,7 +38,7 @@ const menuItems: MenuItem[] = [
 export const Navigation: FunctionComponent = () => {
   const pathname = usePathname();
   return (
-    <nav className="flex-1 flex justify-end md:justify-center items-center px-4">
+    <nav className=" flex justify-end sm:justify-center items-center px-4 ">
 
 
 
@@ -103,14 +104,6 @@ export const Header: FunctionComponent = () => {
       <meta name="theme-color" content="white" />
       <Link href="/" className="flex items-center">
         <div className="">
-          {/* <Image
-            src="/images/icon2.png"
-            alt="Logo"
-            width={48}
-            height={48}
-            className="rounded-full w-12 sm:w-16 md:w-20"
-            priority={true} // Ensures the image is loaded with high priority
-          /> */}
           <Image
             src="/images/icon2.png"
             alt="Logo"
@@ -118,13 +111,14 @@ export const Header: FunctionComponent = () => {
             height={80}
             className="rounded-full w-16 sm:w-20"
           />
-
         </div>
       </Link>
 
       <Navigation />
 
-
+      <div className="hidden md:flex items-center">
+        <FormButton inverted />
+      </div>
     </section>
   );
 };
