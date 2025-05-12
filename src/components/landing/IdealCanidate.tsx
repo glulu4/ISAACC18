@@ -27,17 +27,42 @@ export default function IdealCanidate() {
                             className="h-96 w-full flex-none rounded-xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
                         />
                         <div className="w-full flex-auto ">
-                            <div className="inline-flex items-center px-4 py-2 bg-blue-50 rounded-full text-blue-600 text-lg mb-6">
-                                <Users className="w-5 h-5 mr-2" />
-                                Join ISAACC18
-                            </div>
+
                             <h2 className="text-header1">
-                                Who is the ideal candidate?
+                                Should you join ISAACC18?
                             </h2>
-                            <p className="mt-6 text-body1 ">
-                                The ideal candidate is a dedicated and compassionate individual who is committed to making a positive impact in the field of anesthesia and critical care.
-                                They should possess strong clinical skills, a collaborative spirit, and a willingness to learn and grow within a dynamic team environment. A passion for education and mentorship is also highly valued, as we strive to foster excellence in medical care through knowledge sharing and collaboration.
+                            {/* <p className="mt-6 text-body1 ">
+We are looking for anesthesiologists and/or critical care physicians who:
+                                
+                            </p> */}
+
+                            <p className="mt-6 text-body1">
+                                We are looking for anesthesiologists and/or critical care physicians who:
                             </p>
+
+                            <ul className="mt-4 list-disc list-inside space-y-2 text-body1 text-blue-950 font-medium">
+                                <li className="flex items-start gap-2">
+                                    <span className="font-bold text-blue-950">1.</span>
+                                    Possess strong clinical skills, teaching experience, professional development mentorship, or research success seeking to volunteer in Israel and/or develop a collaborative international partnership.
+                                </li>
+                                <li className="flex items-start gap-2">
+                                    <span className="font-bold text-blue-950">2.</span>
+                                    Want to be part of an international community dedicated to making a positive impact in the field of anesthesiology and critical care in Israel.
+                                </li>
+                            </ul>
+
+                            <div className="mt-8 text-body1 text-gray-800">
+                                <p className="font-semibold text-blue-950 font-serif">Note:</p>
+                                <ul className="mt-2 list-disc text-blue-950 list-inside space-y-1">
+                                    <li>
+                                        Interested volunteers are encouraged to register, even if unable to commit time or effort at this time.
+                                    </li>
+                                    <li>
+                                        <span className="font-bold">Conversational Hebrew language skills</span> are valuable, but not required.
+                                    </li>
+                                </ul>
+                            </div>
+
 
                         </div>
 

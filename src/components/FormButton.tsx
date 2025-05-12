@@ -8,7 +8,7 @@ interface FormButtonProps {
 
 export default function FormButton({
     href = '/',
-    text = 'Fill out the Form',
+    text = 'Register',
     onClick,
 }: FormButtonProps) {
     return (

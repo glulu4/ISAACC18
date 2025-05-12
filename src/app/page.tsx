@@ -35,7 +35,7 @@ const Page = () => {
   return (
     <div className="mb-10">
       
-      <div className="">
+      <div >
         <Hero/>
       </div>
 

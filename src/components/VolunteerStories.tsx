@@ -133,10 +133,7 @@ export default function VolunteerStories() {
     return (
         <div>
             <div className='flex justify-center items-center py-20 flex-col'>
-                <div className="inline-flex items-center px-4 py-2 bg-blue-50 rounded-full text-blue-600 text-lg mb-6">
-                    <BookIcon className="w-5 h-5 mr-2" />
-                    Hear Our Stories
-                </div>
+
                 <p className="mt-10 text-header2">
                     Testimonials
                 </p>

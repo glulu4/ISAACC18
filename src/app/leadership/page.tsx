@@ -15,17 +15,7 @@ Dr. Ron E. Samet is a full-time trauma anesthesiologist and the current Division
         name: 'Dr. Dan Zeloof, MD',
         role: 'Vice President',
         imageUrl: "/images/team/dan-cropped.png",
-        bio: `Dr. Zeloof is a general and cardiothoracic
-anesthesiologist working at both public and private hospitals in Sydney, Australia. Born
-and raised in the United Kingdom (UK), he attended medical school at the Royal
-College of Anaesthesia and then moved to Australia where he completed an anesthesia
-residency at the Royal North Shore Hospital and fellowships in pre-hospital medicine
-(Sydney HEMS) and two further cardio-thoracic anaesthesia fellowships including at
-Royal Papworth Hospital in Cambridge, UK. He holds a Diploma of Clinical Ultrasound
-with the University of Melbourne and is board certified in Advanced Perioperative
-Transesophageal Echocardiography. In 2019 he combined these interests and co-
-founded ASCAR, a cognitive aid development group used by clinicians for crisis
-cognition and response.`,
+        bio: `Dr. Zeloof is a general and cardiothoracic anesthesiologist working at both public and private hospitals in Sydney, Australia. Born and raised in the United Kingdom (UK), he attended medical school at the Imperial College School of Medicine in London and then moved to Australia where he completed an anesthesia residency at the Royal North Shore Hospital and fellowships in pre-hospital medicine and two further cardio-thoracic anaesthesia fellowships including at Royal Papworth Hospital in Cambridge, UK. He holds a Diploma of Clinical Ultrasound with the University of Melbourne and is board certified in Advanced Perioperative Transesophageal Echocardiography. He is a passionate educator and lectures for the University of Sydney School of Medicine. He is also the co-founder of the anaesthesia cognitive aid development group ASCAR.`,
     },
 
 
@@ -64,7 +54,7 @@ strong background in healthcare leadership. He volunteered at Hadassah Ein Keren
 January 2024 and Rambam Medical Center in February 2024.`,
     },
     {
-        name: 'Dr. Yehuda Ginosar',
+        name: 'Professor Yehuda Ginosar, MBBS',
         role: 'Officer',
         imageUrl: "/images/team/Yehuda Ginosar.jpeg",
         bio: `Dr. Ginosar is a Professor of Anesthesiology at the
