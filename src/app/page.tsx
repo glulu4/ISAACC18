@@ -45,9 +45,6 @@ const Page = () => {
       </div>
 
 
-{/* <TrustedBy/> */}
-
-
       <div>
        <VolunteerStories />
       </div>
