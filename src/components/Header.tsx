@@ -24,7 +24,7 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
   // {name: "About us", href: "/about"},
-  {name: "Register", href: "/register"},
+  {name: "Register", href: "https://docs.google.com/forms/d/e/1FAIpQLSelA1lfdxSPDi2PUAAVh5TMTuoQXyzfLzsLW7yFXjEAfVd0Ow/viewform"},
 
   {name: "Leadership", href: "/leadership"},
   // {name: "Announcements", href: "/announcements"},
