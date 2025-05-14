@@ -28,12 +28,6 @@ const Hero = () => {
   `;
     const [current, setCurrent] = useState(0);
 
-    // const images = [
-    //     "/images/cover2.jpeg",
-    //     "/images/cover3.jpg",
-    //     "/images/cover4.jpeg",
-    // ];
-
     const images = [
         "/images/cover/cover-a-1.jpeg",
         "/images/cover/cover-a-2.jpg",
@@ -56,12 +50,13 @@ const Hero = () => {
             {images.map((src, i) => (
                 <Image
                     key={i}
+                    
                     src={src}
                     alt={`slide-${i}`}
                     fill
                     className={`
               object-cover
-              transition-opacity duration-[3000ms] ease-in-out
+              transition-opacity duration-1000 ease-in-out
               ${i === current ? "opacity-100" : "opacity-0"}
             `}
                     priority={i === 0}
@@ -90,60 +85,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-// import Image from "next/image";
-// import React, {useState, useEffect} from "react";
-
-
-
-// const Hero = () => {
-//     const [current, setCurrent] = useState(0);
-
-//     // Advance the index every 5s
-//     useEffect(() => {
-//         const timer = setInterval(() => {
-//             setCurrent((prev) => (prev + 1) % images.length);
-//         }, 5000);
-//         return () => clearInterval(timer);
-//     }, []);
-
-//     const para1 = `…`;
-//     const para2 = `…`;
-//     const para3 = `…`;
-
-//     return (
-//         <div className="relative w-full min-h-screen overflow-hidden">
-//             {/* Image stack */}
-//             <div className="absolute inset-0">
-//                 {images.map((src, i) => (
-//                     <Image
-//                         key={i}
-//                         src={src}
-//                         alt={`slide-${i}`}
-//                         fill
-//                         className={`
-//               object-cover
-//               transition-opacity duration-1000 ease-in-out
-//               ${i === current ? "opacity-100" : "opacity-0"}
-//             `}
-//                         priority={i === 0}
-//                     />
-//                 ))}
-//             </div>
-
-//             {/* Text overlay */}
-//             <div className="relative z-10 flex w-full flex-col justify-center bg-gradient-to-t from-blue-950/90 via-blue-950/60 to-transparent text-white px-6 pt-[200px] pb-12 min-h-screen">
-//                 <div className="sm:w-3/4 mx-auto max-w-7xl">
-//                     <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold mb-4">
-//                         We are ISAACC18
-//                     </h1>
-//                     <p className="font-serif sm:text-xl mb-6">{para1}</p>
-//                     <p className="font-serif sm:text-xl mb-6">{para2}</p>
-//                     <p className="font-serif sm:text-xl mb-6">{para3}</p>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default Hero;

@@ -89,6 +89,12 @@ const config = {
         sans: ["var(--font-sans)", ...fontFamily.sans],
         serif: ["var(--font-rethink-sans)", ...fontFamily.serif],
       },
+      extend: {
+        transitionDuration: {
+          '2000': '2000ms',
+          '3000': '3000ms',
+        },
+      },
 
       fontSize: {
         '7xl': '5rem',
