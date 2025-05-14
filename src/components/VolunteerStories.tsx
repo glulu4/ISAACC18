@@ -130,12 +130,7 @@ import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious}
 // ]
 
 const testimonials = [
-    {
-        id: 1,
-        name: "Michael Freiman",
-        location: "Sidney, Australia",
-        quote: "I was a volunteer in Israel from November to December 18 and left on day 73 of the war. My experiences were transformative, and I know I will be back on the anniversary of October 7."
-    },
+
     {
         id: 2,
         name: "Michael Lewis",
@@ -145,7 +140,7 @@ const testimonials = [
     {
         id: 3,
         name: "Patrick Liston",
-        location: "Sidney, Australia",
+        location: "Sydney, Australia",
         quote: "Having just returned from Ichilov I was very impressed by the quality of care and kindness of the residents and attendings. A big thank you to Idit Matot. It was a fantastic experience and I gained more than I gave."
     },
     {
@@ -183,6 +178,12 @@ const testimonials = [
         name: "Michael Lewis",
         location: "Detroit, USA",
         quote: "ISAACC18 didn’t just coordinate logistics. You created a community. You gave all of us a way to serve, connect, and carry each other through."
+    },
+    {
+        id: 1,
+        name: "Michael Freiman",
+        location: "Sydney, Australia",
+        quote: "I was a volunteer in Israel from November to December 18 and left on day 73 of the war. My experiences were transformative, and I know I will be back on the anniversary of October 7."
     },
     {
         id: 10,

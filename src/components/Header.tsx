@@ -23,7 +23,7 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  // {name: "About us", href: "/about"},
+  {name: "Home", href: "/"},
   {name: "Register", href: "https://docs.google.com/forms/d/e/1FAIpQLSelA1lfdxSPDi2PUAAVh5TMTuoQXyzfLzsLW7yFXjEAfVd0Ow/viewform"},
 
   {name: "Leadership", href: "/leadership"},
@@ -100,7 +100,7 @@ export const Header: FunctionComponent = () => {
   return (
 
 
-    <section className="fixed flex items-center justify-between py-4 bg-headerColor shadow-sm rounded-full mx-auto max-w-[90%] sm:max-w-2xl md:max-w-4xl lg:max-w-6xl top-4 left-0 right-0 z-50 px-4 sm:px-6">
+    <section className=" flex items-center justify-between shadow-lg py-4 bg-white w-full z-50 px-4 sm:px-6">
       <meta name="theme-color" content="white" />
       <Link href="/" className="flex items-center">
         <div className="">

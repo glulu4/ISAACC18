@@ -3,27 +3,19 @@ import {Users} from 'lucide-react'
 import Image from 'next/image'
 import FormButton from '../FormButton'
 
-const benefits = [
-    'Competitive salaries',
-    'Flexible work hours',
-    '30 days of paid vacation',
-    'Annual team retreats',
-    'Benefits for you and your family',
-    'A great work environment',
-]
 
 export default function IdealCanidate() {
     return (
         <div className="pt-24 sm:pt-32">
             <div className="relative isolate">
-                <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                    <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row-reverse lg:items-center lg:py-20 xl:gap-x-25 xl:px-20">
+                
+                <div>{/* className="mx-auto max-w-7xl sm:px-6 lg:px-8" */}
+                    <div className="mx-auto flex flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row-reverse lg:items-center lg:py-20 xl:gap-x-25 xl:px-20">
                         <Image
                             alt="ISAACC18"
                             width={500}
                             height={500}
-                            src="/images/img1.jpg"
-                            // src="https://images.unsplash.com/photo-1519338381761-c7523edc1f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                            src="/images/ideal.jpg"
                             className="h-96 w-full flex-none rounded-xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
                         />
                         <div className="w-full flex-auto ">
@@ -31,10 +23,6 @@ export default function IdealCanidate() {
                             <h2 className="text-header1">
                                 Should you join ISAACC18?
                             </h2>
-                            {/* <p className="mt-6 text-body1 ">
-We are looking for anesthesiologists and/or critical care physicians who:
-                                
-                            </p> */}
 
                             <p className="mt-6 text-body1">
                                 We are looking for anesthesiologists and/or critical care physicians who:

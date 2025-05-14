@@ -2,6 +2,7 @@
 import CTA from "@/components/landing/CTA";
 import Hero from "@/components/landing/Hero";
 import IdealCanidate from "@/components/landing/IdealCanidate";
+import PhotoGallery from "@/components/landing/PhotoGallery";
 import VolunteerStories from "@/components/VolunteerStories";
 
 
@@ -40,8 +41,12 @@ const Page = () => {
       </div>
 
 
-      <div>
+      <div className="container">
         <IdealCanidate/>
+      </div>
+
+      <div>
+        <PhotoGallery />
       </div>
 
 

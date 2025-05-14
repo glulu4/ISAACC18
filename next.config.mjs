@@ -5,7 +5,7 @@ const nextConfig = {
       {
         protocol: "https",
         // hostname: "imagedelivery.net",
-        hostname: "images.unsplash.com",
+        hostname: "tailwindcss.com",
       },
     ],
   },
