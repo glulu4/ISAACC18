@@ -4,7 +4,7 @@ import React, {useEffect, useState} from "react";
 
 const Hero = () => {
     const para1 = `
-    ISAACC18, International Support Of Anaesthesia And Critical Care in Israel is a dedicated international network of
+    ISAACC18 ( International Support Of Anesthesia And Critical Care in Israel ) is a dedicated international network of
     over 200 experienced volunteer anesthesiologists 
     and critical care physicians committed to supporting 
     the Israeli Anesthesia and Critical Care community with 
@@ -64,18 +64,19 @@ const Hero = () => {
             ))}
             
             {/* bg-gradient-to-t from-blue-950/90 from-10% via-blue-950/60 via-40% to-transparent */}
-            <div className="relative z-10 flex w-full flex-col justify-center bg-black bg-opacity-70 text-white px-6 pb-12 min-h-screen">
+            <div className="relative z-10 flex w-full flex-col justify-center bg-black bg-opacity-70 text-white px-6 pb-12 min-h-screen py-20">
                 <div className="flex flex-col text-left items-start justify-start sm:w-3/4 mx-auto max-w-7xl space-y-6">
                     <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-6xl font-bold mb-4">
                         We are ISAACC18
                     </h1>
-                    <p className="font-serif sm:text-xl mb-6 max-w-5xl">
+                    <p className="font-serif sm:text-2xl mb-6 max-w-5xl">
                         {para1}
+                        
                     </p>
-                    <p className="font-serif sm:text-xl mb-6 max-w-4xl">
+                    <p className="font-serif sm:text-2xl mb-6 max-w-4xl">
                         {para2}
                     </p>
-                    <p className="font-serif sm:text-xl mb-6 max-w-4xl">
+                    <p className="font-serif sm:text-2xl mb-6 max-w-4xl">
                         {para3}
                     </p>
                 </div>

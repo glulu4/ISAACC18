@@ -15,7 +15,7 @@ export default function IdealCanidate() {
                             alt="ISAACC18"
                             width={500}
                             height={500}
-                            src="/images/ideal.jpg"
+                            src="/images/home/ideal.jpg"
                             className="h-96 w-full flex-none rounded-xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
                         />
                         <div className="w-full flex-auto ">

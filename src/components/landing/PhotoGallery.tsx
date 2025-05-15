@@ -77,8 +77,8 @@ export default function PhotoGallery() {
                         <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]" />
                     </div>
                     <div className="relative lg:col-span-2">
-                        <div className="absolute inset-px rounded-lg bg-white lg:rounded-bl-[2rem]" />
-                        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-bl-[calc(2rem+1px)]">
+                        <div className="absolute inset-px rounded-lg bg-white " />
+                        <div className="relative flex h-full flex-col overflow-hidden">
                             <Image
                                 width={500}
                                            height={500}
@@ -105,8 +105,8 @@ export default function PhotoGallery() {
                         <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5" />
                     </div>
                     <div className="relative lg:col-span-2">
-                        <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]" />
-                        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-br-[calc(2rem+1px)]">
+                        <div className="absolute inset-px rounded-lg bg-white " />
+                        <div className="relative flex h-full flex-col overflow-hidden ">
                             <Image
                                 width={500}
                                            height={500}
@@ -118,6 +118,38 @@ export default function PhotoGallery() {
                         </div>
                         <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]" />
                     </div>
+
+
+
+                    <div className="relative lg:col-span-3">
+                        {/* <div className="absolute inset-px rounded-lg bg-white lg:rounded-bl-[2rem]" /> */}
+                        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-bl-[calc(2rem+1px)]">
+                            <Image
+                                width={500}
+                                height={500}
+                                alt=""
+                                src="/images/gallery/img9.jpeg"
+                                className="h-80 object-cover object-left w-full"
+                            />
+
+                        </div>
+                        <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5 lg:rounded-bl-[2rem]" />
+                    </div>
+                    <div className="relative lg:col-span-3">
+                        {/* <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]" /> */}
+                        <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-br-[calc(2rem+1px)]">
+                            <Image
+                                width={500}
+                                height={500}
+                                alt=""
+                                src="/images/gallery/img10.jpg"
+                                className="h-80 object-cover object-left lg:object-right w-full"
+                            />
+
+                        </div>
+                        <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5  max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]" />
+                    </div>
+
                 </div>
             </div>
         </div>
