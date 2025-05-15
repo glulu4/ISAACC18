@@ -11,7 +11,7 @@ export default function CTA() {
                     </p>
                     <p className="mt-8 text-xl font-medium text-pretty text-gray-600 sm:text-3xl/8 text-center">
                         Get involved. Register now.
-                        Donate
+                        Donate.
                     </p>
                     <div className="mt-10 flex flex-col sm:flex-row gap-5 items-center justify-center gap-x-6">
        

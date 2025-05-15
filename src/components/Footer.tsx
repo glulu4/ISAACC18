@@ -7,10 +7,6 @@ import {FunctionComponent} from "react"
 const navigation = {
   right: [
     // {name: 'Analytics', },
-    {name: 'Israel Society of Anesthesiologists', bold: true},
-    {name: 'Professor Yehuda Ginosar, MBBS', },
-    {name: 'Professor Barak Cohen, MD', },
-    {name: 'line-break', },
     {name: 'International Board of Directors', bold: true},
     {name: 'Professor Ron E. Samet, MD', },
     {name: 'Dr. Dan Zeloof, MD', },
@@ -18,6 +14,12 @@ const navigation = {
     {name: 'Dr. Leonardo Gendzel, MD', },
     {name: 'Professor Joel Symons, MD', },
     {name: 'Professor Ruthi Landau, MD', },
+    {name: 'line-break', },
+    {name: 'Israel Society of Anesthesiologists', bold: true},
+    {name: 'Professor Yehuda Ginosar, MBBS', },
+    {name: 'Professor Barak Cohen, MD', },
+
+
 
 
 
