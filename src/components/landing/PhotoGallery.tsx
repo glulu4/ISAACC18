@@ -111,7 +111,7 @@ export default function PhotoGallery() {
                                 width={500}
                                            height={500}
                                 alt=""
-                                src="/images/gallery/img8.jpg"
+                                src="/images/gallery/img8.jpeg"
                                 className="h-80 object-cover w-full"
                             />
 
