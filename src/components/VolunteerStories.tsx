@@ -130,6 +130,12 @@ import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious}
 // ]
 
 const testimonials = [
+    {
+        id:0,
+        name: "Professor Barak Cohen – President of the Israeli Society of Anesthesiologists",
+        location: "Detroit, USA",
+        quote: "Since October 7th, the Israeli anesthesia workforce had been stretched to its limits. Many anesthesiologists and intensivists were recruited on the very first day, while anesthesiologists were still needed all around to care for trauma patients as well as planned surgeries. Anesthesia departments throughout the country had to cope with acute shortage of physicians, augmented by extra-shifts, personal risk, and concerns for own families. In face of this challenge, ISAACC18 was a true light. Brave and caring friends showing up at our dark time, standing strong next to us - not only in person but also in spirit. The Israeli Society of Anesthesiologists cannot express its gratitude for this amazing initiative!"
+    },
 
     {
         id: 2,
