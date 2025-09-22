@@ -32,7 +32,7 @@ const navigation = {
     {name: 'Israel • USA • Australia', bold: false},
     {
       name: 'contact@isaacc18.org',},
-    {name: "US 501(c)(3) status • EIN: 31-2174742", },
+    {name: "EIN: 31-2174742", }, // US 501(c)(3) status •
     {name: 'Donate Now', href: 'https://buy.stripe.com/5kA15W4iQfdv0XSbII'},
   ],
 }
