@@ -6,7 +6,6 @@ import {
   SheetHeader,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import {config} from "@/config";
 import {cn} from "@/lib/utils";
 import {Menu} from "lucide-react";
 import Link from "next/link";
@@ -29,7 +28,7 @@ const menuItems: MenuItem[] = [
   {name: "Leadership", href: "/leadership"},
   // {name: "Announcements", href: "/announcements"},
   // {name: "Testimonials", href: "/testimonials"},
-  {name: "Donate", href: "https://buy.stripe.com/5kA15W4iQfdv0XSbII",},
+  {name: "Donate", href: "https://buy.stripe.com/5kA15W4iQfdv0XSbII", },
   {name: "Sign In", href: "/contact"},
 
 
