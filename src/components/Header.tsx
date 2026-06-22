@@ -14,6 +14,7 @@ import {usePathname} from "next/navigation";
 import {FunctionComponent} from "react";
 import clsx from "clsx";
 import FormButton from "./FormButton";
+import {DONATE_URL} from "@/config";
 
 interface MenuItem {
   name: string;
@@ -28,7 +29,7 @@ const menuItems: MenuItem[] = [
   {name: "Leadership", href: "/leadership"},
   // {name: "Announcements", href: "/announcements"},
   // {name: "Testimonials", href: "/testimonials"},
-  {name: "Donate", href: "https://buy.stripe.com/5kA15W4iQfdv0XSbII", },
+  {name: "Donate", href: DONATE_URL, },
   {name: "Sign In", href: "/contact"},
 
 

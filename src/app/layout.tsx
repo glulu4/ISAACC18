@@ -1,8 +1,8 @@
 
-import { config } from "@/config";
-import { cn } from "@/lib/utils";
-import type { Metadata } from "next";
-import { Inter, Libre_Baskerville, Unna, Frank_Ruhl_Libre, Rethink_Sans} from "next/font/google";
+import {config} from "@/config";
+import {cn} from "@/lib/utils";
+import type {Metadata} from "next";
+import {Inter, Libre_Baskerville, Unna, Frank_Ruhl_Libre, Rethink_Sans} from "next/font/google";
 import "./globals.css";
 import {Header} from "@/components/Header";
 import {Footer} from "@/components/Footer";
@@ -27,6 +27,7 @@ const fontSerif = Rethink_Sans({
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL(config.baseUrl),
   title: {
     absolute: config.name.metadata.title.absolute,
     default: config.name.metadata.title.default,
@@ -53,7 +54,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased scroll-smooth",
+          "min-h-screen bg-background font-sans antialiased scroll-smooth ",
           fontSans.variable,
           fontSerif.variable,
         )}
@@ -61,14 +62,15 @@ export default function RootLayout({
         <Providers
           attribute="class"
           defaultTheme="light"
-          // enableSystem
+          forcedTheme="light"
+          enableSystem={false}
           disableTransitionOnChange
         >
           <main>
             <Header />
             {children}
             <Footer />
-            </main>
+          </main>
         </Providers>
       </body>
     </html>

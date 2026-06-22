@@ -28,3 +28,7 @@ const buildConfig = () => {
 };
 
 export const config = buildConfig();
+
+// Stripe Payment Link for donations. If the link is rotated (e.g. to stop bot
+// card-testing), update it here in one place.
+export const DONATE_URL = "https://buy.stripe.com/bJe7sLfIt4ml9EY12MfIs01";

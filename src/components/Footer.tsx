@@ -1,5 +1,5 @@
 
-import {config} from "@/config"
+import {config, DONATE_URL} from "@/config"
 import {FunctionComponent} from "react"
 
 const navigation = {
@@ -33,7 +33,7 @@ const navigation = {
     {
       name: 'contact@isaacc18.org',},
     {name: "EIN: 31-2174742", }, // US 501(c)(3) status •
-    {name: 'Donate Now', href: 'https://buy.stripe.com/5kA15W4iQfdv0XSbII'},
+    {name: 'Donate Now', href: DONATE_URL},
   ],
 }
 
